@@ -1,0 +1,30 @@
+        .img-container {
+            position: relative;
+            display: inline-block;
+        }
+        .img-overlay {
+            position: absolute;
+            bottom: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+            font-family: 'Roboto Condensed';
+        }
+        .floating:hover {
+            transform: translateY(-20px);
+        }
+        .floating:hover ~ .img-overlay {
+            opacity: 1;
+        }
+
+        h1 {
+            font-family: 'Roboto Condensed';
+        }
+        h2 {
+            font-family: 'Roboto Condensed';
+        }
+
+        p {
+            font-family: 'Roboto Condensed';
+        }

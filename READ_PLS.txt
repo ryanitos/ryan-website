@@ -1,0 +1,22 @@
+The following information might make checking the work easier:
+
+(20%) Write at least 2 different style sheets. At least one should be specific to a certain page, although you may also have sheets that are linked by ALL of your pages as a “website-wide” styling.
+
+- Style Sheet #1: financestyle.css (new)
+- Style Sheet #2: mathstyle.css
+
+(20%) Utilize a variety of selector types - including tag, class, id, or combinations of them. This means adding class and / or id attributes to some of your HTML elements.
+
+- Used type selector on mathpage.html
+- Used class selector on financepage.html
+- Used id selector on financepage.html
+
+(30%) Experiment with a variety of style properties, including font-related, color-related, and layout properties (e.g. width/height/margin/border/padding).
+
+- Experimented with font color and padding on the text on financepage.html
+- Experimented with layout properties on mathpage.html.
+
+(10%) Use a custom font via Google Fonts for some part of your webpage. Make sure that any HTML files that use the custom font have it linked in the <head> , and that the CSS file refers to the font correctly.
+
+- Used custom “Roboto Condensed” font on both mathpage.html and financepage.html. Custom fonts were linked in the header of each respective page
+
